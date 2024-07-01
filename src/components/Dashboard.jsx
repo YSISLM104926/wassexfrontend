@@ -14,7 +14,7 @@ import { Button, Menu } from 'antd';
 import Navbar from './shared/Navbar';
 
 const items = [
-    { key: '1', icon: <MenuOutlined />, label: 'Option 1' },
+    { key: '1', icon: <MenuUnfoldOutlined />, label: 'Option 1' },
     { key: '2', icon: <DesktopOutlined />, label: 'Option 2' },
     { key: '3', icon: <ContainerOutlined />, label: 'Option 3' },
     { key: '4', icon: <ContainerOutlined />, label: 'Option 4' },

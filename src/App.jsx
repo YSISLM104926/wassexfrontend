@@ -5,7 +5,7 @@ import Main from "./components/Main/Main";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="max-w-[1400px] mx-auto">
       <Main />
     </div>
   );

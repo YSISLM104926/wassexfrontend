@@ -7,14 +7,15 @@ const { Meta } = Card;
 const NewArrivals = () => {
     return (
         <div>
-            <h1 className='text-center mt-12 text-2xl'>Categories</h1>
-            <div className='grid grid-cols-5 mt-6'>
+            <h1 className='text-center mt-12 text-5xl font-bold text-black underline'>Categories</h1>
+            <div className='flex justify-center gap-x-20 mt-12 flex-col lg:flex-row items-center'>
                 <Card
                     hoverable
                     style={{ width: 200 }}
                     cover={
                         <img
                             alt="example"
+                            className=''
                             src="https://odo-cdn.imgix.net/catalog/product/168/242/1682429296.6733.png?auto=compress,format&w=800&h=800&bg=fff&fit=fill"
                         />
                     }

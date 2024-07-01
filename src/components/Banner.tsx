@@ -23,7 +23,7 @@ const Banner = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 2500,
+                    delay: 1500,
                     disableOnInteraction: false,
                 }}
                 pagination={{
@@ -33,8 +33,12 @@ const Banner = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src="https://www.bobswatches.com/rolex-blog/wp-content/uploads/2019/11/Luxury-Watch-Brands-Like-Rolex-BANNER.jpg" /></SwiperSlide>
-                <SwiperSlide><img src="https://luxurytimenyc.com/cdn/shop/collections/rolex-247780.jpg?v=1621396423" /></SwiperSlide>
+                <SwiperSlide ><img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/products/mr-g/mrg-b2000/_jcr_content/root/responsivegrid/container_1689197747/teaser.casiocoreimg.jpeg/1684182548618/mrgb2000b1a4-pc-1920x816.jpeg" /></SwiperSlide>
+                <SwiperSlide ><img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/products/mr-g/mrg-b5000ba/_jcr_content/root/responsivegrid/container_1689197747_1729484176/teaser.casiocoreimg.jpeg/1681830011730/mrgb5000ba-pc-nologo-1920x816.jpeg" /></SwiperSlide>
+                <SwiperSlide ><img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/products/mr-g/_jcr_content/root/responsivegrid/teaser_copy_21076268.casiocoreimg.jpeg/1701701730930/mrgbf1000r-1920x816.jpeg" /></SwiperSlide>
+                <SwiperSlide >
+                    <img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/products/mr-g/mrg-b5000/_jcr_content/root/responsivegrid/container_1689197747/teaser_copy.casiocoreimg.jpeg/1717175303749/mrgb5000-notext-1920x816.jpeg" />
+                </SwiperSlide>
             </Swiper>
         </div>
     )
